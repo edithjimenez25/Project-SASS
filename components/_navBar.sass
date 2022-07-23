@@ -1,0 +1,24 @@
+$base-color: beige
+$border-color: orange
+
+.navbar
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 10px 15px
+    background-color: lightSkyBlue
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li
+    display: inline-block
+    padding: 20px
+    margin-right: 10px
+    margin-left: 10px
+    cursor: pointer
+    background: #fff
+    border-radius: 3px
+
+/* Getting rid of the default link styles here */
+.navbar li a
+    color: #000
+    text-decoration: none

@@ -1,0 +1,13 @@
+1) Crear un archivo HTML que tenga una barra de navegacion con un logo y 3 botones.
+
+2) Crear un mixing para el estilo de los botones, el cual pueda manejar el padding,
+margin, background color, color del texto, tamaño de letra y grosor de letra.
+
+3) Realizar validaciones verificando que las propiedades se envien, y en caso de
+que falte alguna propieded darles unos estilos por default.
+
+4) Estos estilos deben estar en componentes, los estilos de la nav bar deben estar
+en un archivo unicamente para la nav bar, y los botones deben tener su propio archivo
+estos deben ser llamados en un archivo index.sass
+
+4)Aplicar los estilos al HTML (Estilos diferentes para cada boton)

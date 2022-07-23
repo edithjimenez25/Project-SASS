@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: lightSkyBlue;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*STYLE PROPERTIES*/
+.style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 {
+  padding: 2px;
+  margin: 1px;
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.button2 {
+  padding: 4px;
+  margin: 2px;
+  background-color: pink;
+  color: green;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.button3 {
+  padding: 6px;
+  margin: 3px;
+  background-color: DeepSkyBlue;
+  color: blue;
+  font-size: 40px;
+  font-weight: 300;
+}/*# sourceMappingURL=index.css.map */

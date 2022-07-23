@@ -1,0 +1,26 @@
+// Crear un mixing para el estilo de los botones, el cual pueda manejar el padding,
+//margin, background color, color del texto, tamaño de letra y grosor de letra.
+//Create styles for buttons
+
+/*STYLE PROPERTIES*/
+.style
+    display: flex
+    align-items: center
+    justify-content: center
+
+@mixin button($name, $padding, $value1, $margin, $value2, $backgroundColor, $value3, $color, $value4, $fontSize, $value5, $fontWeight, $value6)
+    .#{$name}
+        @if $padding == padding
+            #{$padding}: $value1
+        @else
+            padding: 1px
+        #{$margin}: $value2
+        #{$backgroundColor}: $value3
+        #{$color}: $value4
+        #{$fontSize}: $value5
+        #{$fontWeight}: $value6
+        
+
+@include button("button1", padding, 2px, margin, 1px, background-color, yellow, color, red, font-size, 20px, font-weight, 900) //llamo el mixin y le asigno el color red
+@include button("button2", padding, 4px, margin, 2px, background-color, pink, color, green, font-size, 30px, font-weight, 600 )
+@include button("button3", padding, 6px, margin, 3px, background-color, DeepSkyBlue, color, blue, font-size, 40px, font-weight, 300)
